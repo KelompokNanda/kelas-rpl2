@@ -1,0 +1,24 @@
+<?php
+
+class kendaraan{
+    
+    var $warna;
+    var $merek;
+    var $ukuran;
+    
+    
+    function warna(){
+        return "hitam <br/>";
+      
+}
+    function merek(){
+        return "honda <br/>";
+      
+    }
+    
+    function ukuran(){
+        return "P 1.877 ,L 669 ,T 1.074 mm <br/>";
+    }
+}
+
+ ?>
