@@ -1,0 +1,28 @@
+<?php
+class motor{
+    
+    var $merek;
+    var $warna;
+    var $ukuran;
+    
+    function __construct(){
+        echo "hitam <br/>";
+        
+    }
+    
+    function __destruct(){
+        echo "P 1.877 ,L 669 ,T 1.074 mm <br/>";
+       
+    }
+
+    function tampilkan_merek(){
+        return "honda <br/>";
+        
+    }
+
+}
+$motor = new motor();
+
+echo $motor->tampilkan_merek();
+
+ ?>
